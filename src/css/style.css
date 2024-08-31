@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    height: 551px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    background-color: var(--background);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--card-background);
+    height: 490px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.card .profile-informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .profile-informations .profile-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.card .profile-informations .profile-avatar img {
+    width: 75px;
+    border-radius: 100%;
+}
+
+.card .profile-informations .profile-name {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.card .profile-informations .profile-location {
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 20px;
+}
+
+.card .profile-informations .about-me {
+    font-size: 14px;
+}
+
+.card .contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .contact-me li {
+    background-color: var(--links-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 240px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.card .contact-me li:hover {
+    background-color: var(--links-hover);
+    cursor: pointer;
+}

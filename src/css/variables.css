@@ -1,0 +1,6 @@
+:root{
+    --background: hsl(0, 0%, 8%);
+    --card-background: hsl(0, 0%, 12%);
+    --links-background: hsl(0, 0%, 20%);
+    --links-hover: hsl(75, 94%, 57%);
+}
